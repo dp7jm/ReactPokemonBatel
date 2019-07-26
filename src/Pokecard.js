@@ -6,6 +6,9 @@ class Pokecard extends Component {
         return(
             <div>
                 <h1>{this.props.name}</h1>
+                <p>{this.props.id}</p>
+                <p>{this.props.experience_point}</p>
+
 
                 
                 

@@ -10,7 +10,7 @@ class Pokedex extends Component {
                 id = {4}
                 name = "Charmander" 
                 type = "fire"
-                expirence_point = {62}
+                experience_point = {62}
                 />
 
 
