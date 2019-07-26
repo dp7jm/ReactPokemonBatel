@@ -1,5 +1,6 @@
 .Pokecard {
     border: 2px darkblue solid;
+    width: 300 px;
 
 }
 .Pokecard-image {
