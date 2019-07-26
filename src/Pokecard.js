@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import './Pokecard.css';
-
+const imageSource = 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/';
 
 class Pokecard extends Component {
     render(){
         return(
             <div>
                 <h1>{this.props.name}</h1>
-                <img src = 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png'/>
+                <img src = {`${imageSource}009.png`}/>
                 <p>{this.props.id}</p>
                 <p>{this.props.experience_point}</p>
 
