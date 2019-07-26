@@ -20,8 +20,8 @@ class Pokedex extends Component {
                 <Pokecard 
                 id = {this.props.pokemonlist[0].id}
                 name = {this.props.pokemonlist[0].name} 
-                type = "fire"
-                exp = {62}
+                type = {this.props.pokemonlist[0].type} 
+                exp = {this.props.pokemonlist[0].exp} 
                 />
 
 
