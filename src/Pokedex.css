@@ -1,9 +1,4 @@
-.Pokedex {
-    
-    background-color: darkgreen;
-    
 
-}
 .Pokedex-cardfield{
     display: flex;
     justify-content: space-evenly;
