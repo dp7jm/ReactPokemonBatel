@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Pokedex
-      pokemonList = {Pokemonlist}
+      //pokemonlist = {Pokemonlist}
       />
     </div>
   );
