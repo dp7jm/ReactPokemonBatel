@@ -12,9 +12,14 @@ class Pokedex extends Component {
         return(
             
             <div>
+                <h1>Poke DEX</h1>
+                {console.log(Pokemonlist)}
+                {console.log(this.props.pokemonlist)}
+                {console.log(this.props.pokemonlist[0].id)}
+
                 <Pokecard 
-                id = {2}
-                name = "Charmander" 
+                id = {this.props.pokemonlist[0].id}
+                name = {this.props.pokemonlist[0].name} 
                 type = "fire"
                 exp = {62}
                 />
