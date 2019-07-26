@@ -14,7 +14,7 @@ class Pokedex extends Component {
             <div className = 'Pokedex'>
                 <h1>Poke DEX</h1>
                 
-              <div>
+              <div className = 'Pokedex-cardfield'>
                 {
                     pokemonList.map((p,prop) => (
                         <Pokecard

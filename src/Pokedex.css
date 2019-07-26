@@ -4,6 +4,7 @@
     
 
 }
-.Pokedex-cardfiled{
+.Pokedex-cardfield{
+    display: flex;
 
 }
