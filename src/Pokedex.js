@@ -11,8 +11,10 @@ class Pokedex extends Component {
         const pokemonList = this.props.pokemonlist;
         return (
 
-            <div>
+            <div className = 'Pokedex'>
                 <h1>Poke DEX</h1>
+                
+              <div>
                 {
                     pokemonList.map((p,prop) => (
                         <Pokecard
@@ -25,6 +27,7 @@ class Pokedex extends Component {
                     ))
 
                 }
+                </div>  
 
                 {/* 
                 <Pokecard
