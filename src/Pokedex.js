@@ -8,7 +8,7 @@ class Pokedex extends Component {
         pokemonlist: Pokemonlist 
     }
     render() {
-        // const pokemonList = this.props.pokemonlist;
+        const pokemonList = this.props.pokemonlist;
         return(
             
             <div>
@@ -18,10 +18,10 @@ class Pokedex extends Component {
                 {console.log(this.props.pokemonlist[0].id)}
 
                 <Pokecard 
-                id = {this.props.pokemonlist[0].id}
-                name = {this.props.pokemonlist[0].name} 
-                type = {this.props.pokemonlist[0].type} 
-                exp = {this.props.pokemonlist[0].exp} 
+                id = {pokemonList[0].id}
+                name = {pokemonList[0].name} 
+                type = {pokemonList[0].type} 
+                exp = {pokemonList[0].exp} 
                 />
 
 
