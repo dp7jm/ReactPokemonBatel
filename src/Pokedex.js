@@ -12,9 +12,8 @@ class Pokedex extends Component {
         const pokemonList = this.props.pokemonlist;
         return (
 
-            <div className = 'Pokedex'>
-                <h1 className = 'Pokedex-h1'>Poke DEX</h1>
-                <h1>{`Wynik to: ${this.props.score}`}</h1>
+            <div className = 'Pokedex'>                
+                <p>{`Wynik to: ${this.props.score}`}</p>
                 {winner(this.props.winer)}
                 
               <div className = 'Pokedex-cardfield'>

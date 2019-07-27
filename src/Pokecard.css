@@ -17,3 +17,7 @@
 .Pokecard img:hover {
     transform: scale(2);
 }
+.Pokecard-data{
+    font-size: 4px;
+    
+}
