@@ -29,13 +29,6 @@ class Pokedex extends Component {
                 }
                 </div>  
 
-                {/* 
-                <Pokecard
-                    id={pokemonList[0].id}
-                    name={pokemonList[0].name}
-                    type={pokemonList[0].type}
-                    exp={pokemonList[0].exp}
-                /> */}
 
 
             </div>
