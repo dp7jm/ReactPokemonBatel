@@ -1,4 +1,6 @@
-
+.Pokedex-h1{
+    text-align: center;
+}
 .Pokedex-cardfield{
     display: flex;
     justify-content: space-evenly;
