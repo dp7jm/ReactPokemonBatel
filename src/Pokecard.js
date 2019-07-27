@@ -16,7 +16,7 @@ const adres = (id) => {
 }
 class Pokecard extends Component {
     render(){
-        const {name, id, exp, type} = this.props;
+        // const {name, id, exp, type} = this.props;
         return(
             <div className = "Pokecard">
                 <h1>{this.props.name}</h1>
