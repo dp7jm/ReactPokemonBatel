@@ -11,6 +11,9 @@
 }
 .Pokecard img {
     height: 200px;
-        
+     
 
+}
+.Pokecard img:hover {
+    transform: scale(2);
 }
