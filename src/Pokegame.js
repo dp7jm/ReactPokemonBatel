@@ -27,7 +27,7 @@ class Pokegame extends Component {
 
         return (
             <div className = 'Pokegame'>
-                <h1>{`First Score: ${firstScore} points`}</h1>
+                
                 <Pokedex 
                 pokemonlist= {firstHand}
                 score= {firstScore}
