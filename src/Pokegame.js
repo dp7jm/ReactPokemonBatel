@@ -12,7 +12,7 @@ const chose = (pokemonL, numberOf) => {
 }
 const calculateScore = (pokemonL) =>{
     let finalScore = 0;
-    pokemonL.map((p)=>{
+    pokemonL.forEach(p =>{
         finalScore += p.exp;
     })
     return finalScore;
