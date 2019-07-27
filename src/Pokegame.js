@@ -30,12 +30,14 @@ class Pokegame extends Component {
                 <Pokedex 
                 pokemonlist= {firstHand}
                 score= {firstScore}
+                winer= {true}
                 />
                 <h1>{`Second Score: ${secondScore} points`}</h1>
 
                 <Pokedex 
                 pokemonlist= {secondHand}
                 score= {secondScore}
+                winer= {false}
                 />
 
             </div>
