@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Pokemonlist from './Pokemonlist';
 import Pokedex from './Pokedex';
 import pokemonList from './Pokemonlist';
+import './Pokegam.css';
 const chose = (pokemonL, numberOf) => {
     let newArry = [];
     for (let index = 0; index < numberOf; index++) {
