@@ -1,12 +1,12 @@
 .Pokecard {
     border: 2px darkblue solid;
     width: 300 px;
-    margin: 2px;
+    margin: 1x;
     padding: 1rem;
     box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
     text-align: center;
     background-color: azure;
-    border-radius: 8px;
+    border-radius: 3px;
 
 }
 .Pokecard img {
