@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Pokemonlist from './Pokemonlist';
 import Pokedex from './Pokedex';
 import pokemonList from './Pokemonlist';
-import './Pokegam.css';
+import './Pokegame.css';
 const chose = (pokemonL, numberOf) => {
     let newArry = [];
     for (let index = 0; index < numberOf; index++) {
@@ -26,7 +26,7 @@ class Pokegame extends Component {
         const secondScore = calculateScore(secondHand);
 
         return (
-            <div>
+            <div className = 'Pokegame'>
                 <h1>{`First Score: ${firstScore} points`}</h1>
                 <Pokedex 
                 pokemonlist= {firstHand}
