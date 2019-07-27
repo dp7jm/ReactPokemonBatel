@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Pokemonlist from './Pokemonlist';
+import Pokedex from './Pokedex';
 const chose = (Pokemonlis, numberOf) => {
     let newArry = [];
     for (let index = 0; index < numberOf; index++) {
@@ -15,7 +16,13 @@ class Pokegame extends Component {
 
         return (
             <div>
-                {console.log(firstHand)}
+                <Pokedex 
+                pokemonlist= {firstHand}
+                />
+
+                <Pokedex 
+                pokemonlist= {secondHand}
+                />
 
 
             </div>
