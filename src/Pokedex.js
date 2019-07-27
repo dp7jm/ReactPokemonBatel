@@ -13,6 +13,7 @@ class Pokedex extends Component {
 
             <div className = 'Pokedex'>
                 <h1 className = 'Pokedex-h1'>Poke DEX</h1>
+                <h1>{this.props.score}</h1>
                 
               <div className = 'Pokedex-cardfield'>
                 {
