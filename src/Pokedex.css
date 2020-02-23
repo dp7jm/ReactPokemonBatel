@@ -1,0 +1,15 @@
+.Pokedex {
+    text-align: center;
+}
+
+.Pokedex-h1 {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.Pokedex-cardfield {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
